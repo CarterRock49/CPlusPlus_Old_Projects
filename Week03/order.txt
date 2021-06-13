@@ -1,0 +1,13 @@
+.....................................................
+ITCS 2530 - Programming Assignment for week #3
+.....................................................
+
+Please enter the item name (no spaces)...............:fds
+Is the item fragile? (y=yes/n=no)....................:y
+Please enter your order total........................:543
+Please enter destination. (usa/can/aus)..............:usa
+Your item is.............................:FDS
+Your shipping cost is....................$2.00
+You are shipping to......................:USA
+Your total shipping costs are............$545.00
+

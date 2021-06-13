@@ -5,9 +5,9 @@
 using namespace std;
 
 //declares const varibles that can't be changed.
-const float contain = 2.76;
-const float cost = 4.12;
-const float profit = 1.45;
+const double contain = 2.76;
+const double cost = 4.12;
+const double profit = 1.45;
 
 int main(){
     //intro print, setfill replaces the default space with the desired *
