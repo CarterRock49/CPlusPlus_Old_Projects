@@ -6,6 +6,7 @@
         "ios": "cpp",
         "xutility": "cpp",
         "algorithm": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "initializer_list": "cpp"
     }
 }

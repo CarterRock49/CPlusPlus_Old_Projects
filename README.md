@@ -14,3 +14,7 @@ Program took user input muliplied it against const varibles to find a desired an
 Week 3 Assignment
 
 took user input for an order and returned added shipping based on if else statement. Addtionally it writes the output of the program to a txt file.
+
+Week 4 Assignment
+
+took file in same folder and ran the program via command prompt to determine how many of specfic letters are in the file and the total count of letters through the use of a loop and a decision structure.
