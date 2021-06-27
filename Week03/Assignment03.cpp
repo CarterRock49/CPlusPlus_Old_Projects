@@ -108,7 +108,7 @@ int main(){
     if (order > shippingthree && fragile == "Y"){
         cost = cost + fragilecost;
     }
-    //finds final cost     
+    //finds final cost
     order = order + cost;
 
     //prints end reults
