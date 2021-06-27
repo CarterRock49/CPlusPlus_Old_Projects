@@ -18,3 +18,7 @@ took user input for an order and returned added shipping based on if else statem
 Week 4 Assignment
 
 took file in same folder and ran the program via command prompt to determine how many of specfic letters are in the file and the total count of letters through the use of a loop and a decision structure.
+
+Week 5 Assignment
+
+The program gives the user a mulitude of options to go about purchasing surf boards via the use of loops, decision structures, and muliple functions.
