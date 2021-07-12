@@ -22,3 +22,11 @@ took file in same folder and ran the program via command prompt to determine how
 Week 5 Assignment
 
 The program gives the user a mulitude of options to go about purchasing surf boards via the use of loops, decision structures, and muliple functions.
+
+Week 6 Assignment
+
+This program takes input from a file and finds the average and outputs that to the terminal through usage of arrays, loop, and muliple functions.
+
+Week 7 Assignment
+
+This program takes input from a file and finds the average and outputs that to the terminal through usage of arrays, loop, a struct, and muliple functions.
