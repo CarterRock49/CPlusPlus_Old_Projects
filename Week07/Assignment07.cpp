@@ -9,7 +9,7 @@ This program takes input from a file and finds the average and outputs that to t
 loop, a struct, and muliple functions.
 */
 //const varibles that can't be changed
-const int ARRAY_WIDTH = 4;
+const int ARRAY_WIDTH = 5;
 const int ARRAY_LENGTH = 10;
 //struct define
 struct bowling
@@ -41,11 +41,11 @@ void GetBowlingData(bowling (&realbowling)[ARRAY_LENGTH],string filename){
     //declares varibles
     ifstream fs;
     string cha;
-    
     int first;
     int sec;
     int third;
     int four;
+    int fifth;
     int index2 = 0;
     //opens file and checks to make sure it was successful
     fs.open(filename);
@@ -55,7 +55,7 @@ void GetBowlingData(bowling (&realbowling)[ARRAY_LENGTH],string filename){
         cout << "Success" << endl;
     }
     //runs till the end of the file and iterates through rows
-    while (!fs.eof() && fs >> cha >> first >> sec >> third >> four){
+    while (!fs.eof() && fs >> cha >> first >> sec >> third >> four >> fifth){
         //fill name array from file
         realbowling[index2].name = cha;
         //loop interates through cols and fill array with numbers from file
@@ -68,8 +68,9 @@ void GetBowlingData(bowling (&realbowling)[ARRAY_LENGTH],string filename){
                 realbowling[index2].scores[index] = third;
             } else if (index == 3){
                 realbowling[index2].scores[index] = four;
+            } else if (index == 4){
+                realbowling[index2].scores[index] = fifth;
             }
-
         }
         index2++;
     }
@@ -78,13 +79,13 @@ void GetBowlingData(bowling (&realbowling)[ARRAY_LENGTH],string filename){
 // a functions that takes the previous inputed array and finds some averages and inputs it into the struct
 void GetAverageScore(bowling (&realbowling)[ARRAY_LENGTH]){
     //declare varibles
-    double average;
+    double average = 0;
     //loop iterates through rows
     for (int index2 = 0; index2 < ARRAY_LENGTH; index2++){
         //loop interates through cols
         for (int index = 0;index < ARRAY_WIDTH; index++){
             //adds each colomn in a row
-            average =+ realbowling[index2].scores[index];
+            average = average + realbowling[index2].scores[index];
         }
         //gets average of each row and puts it into the struct
         realbowling[index2].average = average/(ARRAY_WIDTH);
