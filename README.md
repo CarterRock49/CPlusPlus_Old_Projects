@@ -1,37 +1,37 @@
 # C_Plus_Plus
 
 
-Week 1 Assignment
+Week 1 Project
 
 Program converted second into minutes then into hours.
 
 
 
-Week 2 Assignment
+Week 2 Project
 
 Program took user input muliplied it against const varibles to find a desired answer and then presented that answer in an agreeable way through the use of manipulators.
 
-Week 3 Assignment
+Week 3 Project
 
 took user input for an order and returned added shipping based on if else statement. Addtionally it writes the output of the program to a txt file.
 
-Week 4 Assignment
+Week 4 Project
 
 took file in same folder and ran the program via command prompt to determine how many of specfic letters are in the file and the total count of letters through the use of a loop and a decision structure.
 
-Week 5 Assignment
+Week 5 Project
 
 The program gives the user a mulitude of options to go about purchasing surf boards via the use of loops, decision structures, and muliple functions.
 
-Week 6 Assignment
+Week 6 Project
 
 This program takes input from a file and finds the average and outputs that to the terminal through usage of arrays, loops, and muliple functions.
 
-Week 7 Assignment
+Week 7 Project
 
 This program takes input from a file and finds the average and outputs that to the terminal through usage of arrays, loops, a struct, and muliple functions.
 
-Week 8 Assignment
+Week 8 Project
 
 This program takes input from a file and finds the average and outputs that to the terminal through usage of arrays, loops, a struct, and muliple functions inside a class.
 
